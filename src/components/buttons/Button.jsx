@@ -1,8 +1,8 @@
 import './button.css'
 
-function Button() {
+function Button(props) {
   return (
-    <div>Button</div>
+    <button>{props.text}</button>
   )
 }
 
